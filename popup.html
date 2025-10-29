@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LinkedIn Auto Search</title>
+    <style>
+      body {
+        width: 250px;
+        font-family: Arial, sans-serif;
+        padding: 12px;
+        background-color: #f9fafb;
+      }
+
+      h3 {
+        margin-bottom: 12px;
+        text-align: center;
+        color: #0077b5;
+      }
+
+      input {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        font-size: 14px;
+      }
+
+      button {
+        width: 100%;
+        padding: 8px;
+        background-color: #0077b5;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 14px;
+      }
+
+      button:hover {
+        background-color: #005983;
+      }
+
+      #status {
+        text-align: center;
+        margin-top: 8px;
+        font-size: 13px;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>LinkedIn Auto Search</h3>
+    <input type="text" id="searchInput" placeholder="Enter what to search..." />
+    <button id="searchBtn">Search</button>
+    <div id="status"></div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

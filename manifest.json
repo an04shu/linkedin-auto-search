@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Auto Search",
+  "version": "2.0",
+  "description": "Opens LinkedIn Feed and types the user’s input into the search bar.",
+  "permissions": ["tabs", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "LinkedIn Auto Search"
+  },
+  "host_permissions": [
+    "https://www.linkedin.com/*"
+  ],
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
